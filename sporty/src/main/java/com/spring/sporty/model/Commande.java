@@ -15,7 +15,7 @@ import javax.persistence.*;
 public class Commande {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
-    private Long id_cmd;
+    private Long id;
     private String date_cmd;
     private double prix_cmd;
     private int quantite_cmd;
@@ -24,6 +24,4 @@ public class Commande {
     private String prenom_client;
     private String adresse_client;
     private int tel_client;
-
-
 }
